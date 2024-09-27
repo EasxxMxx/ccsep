@@ -1,3 +1,14 @@
+<?php
+    include('config.php');
+
+    $config = new Config();
+    $config->set_conn();
+    $config->create_tables();
+    // $config->insert_data();
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,18 +25,29 @@
             <label for="username">Username</label>
             <div class="username">
                 <img src="img/user.svg" alt="">
-                <input type="text" placeholder="Type your username">
+                <input type="text" placeholder="Type your username" name="username">
             </div>        
         </section>
         <section class="credentials">
             <label for="password">Password</label>
             <div class="password">
                 <img src="img/lock.svg" alt="">
-                <input type="password" placeholder="Type your password">
+                <input type="password" placeholder="Type your password" name="password">
                 <img src="img/eye.svg" class="eye" alt="">
             </div>
         </section>
         <a href="" class="forgot-password">Forgot password?</a>
+        <p class="error-text">
+            <?php
+                if (isset($_GET['error'])) {
+                    if ($_GET['error'] == 1) {
+                        echo "Invalid password. Please try again.";
+                    } elseif ($_GET['error'] == 2) {
+                        echo "Username not found. Please try again.";
+                    }
+                }
+            ?>
+        </p>
         <input type="submit" value="LOGIN" class="login-button">
         <p>Or Sign Up Using</p>
         <section class="other-logins">
