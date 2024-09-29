@@ -24,36 +24,36 @@
     <div class="settings">
         <section class="language">
             <div>
-                <img src="img/globe.svg" alt="">
-                <p>Language</p>
+                <img src="img/Universal-Access-Circle--Streamline-Bootstrap.svg" alt="">
+                <p>General</p>
             </div>
             <p>></p>
         </section>
         <section class="favourites">
             <div>
-                <img src="img/star.svg" alt="">
-                <p>Favourites</p>
+                <img src="img/Plugin--Streamline-Bootstrap.svg" alt="">
+                <p>Plugins</p>
             </div>
             <p>></p>
         </section>        
         <section class="privacy-and-security">
             <div>
-                <img src="img/lock.svg" alt="">
-                <p>Privacy and Security</p>
+                <img src="img/mail.svg" alt="">
+                <p>Email</p>
             </div>
             <p>></p>
         </section>
         <section class="about">
             <div>
-                <img src="img/info.svg" alt="">
-                <p>About</p>
+                <img src="img/image.svg" alt="">
+                <p>Assets</p>
             </div>
             <p>></p>
         </section>
         <section class="logout">
             <div>
-                <img src="img/log-out.svg" alt="">
-                <p>Logout</p>
+                <img src="img/database.svg" alt="">
+                <p>Backup Database</p>
             </div>
             <p>></p>
         </section>
