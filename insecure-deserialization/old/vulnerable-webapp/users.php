@@ -1,5 +1,4 @@
 <?php
-    include('user.php');
     include('config.php');
 
     $config = new Config();
@@ -10,8 +9,7 @@
         // Deserialize the cookie data (Insecure)
         $user_data = unserialize($_COOKIE['user_info']);
 
-        $username = $user_data->get_username();
-        $roles = $user_data->get_roles();
+        $isAdmin = $user_data['isAdmin'];
     }
 ?>
 

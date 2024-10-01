@@ -1,13 +1,24 @@
 <?php
-    include('user.php');
+    session_start();
 
     // Check if the cookie exists
     if (isset($_COOKIE['user_info'])) {
         // Deserialize the cookie data (Insecure)
-        $user_data = unserialize($_COOKIE['user_info']);
+        $user_data = json_decode($_COOKIE['user_info'], true);
+        
+        $username = $user_data['username'];
+        $isAdmin = $user_data['isAdmin'];
 
-        $username = $user_data->get_username();
-        $roles = $user_data->get_roles();
+        if ($_SESSION["username"] != $username)
+        {
+            $username = $_SESSION["username"];
+        }
+
+        if ($_SESSION["isAdmin"] != $isAdmin)
+        {
+            $isAdmin = $_SESSION["isAdmin"];
+        }
+        
     }
 ?>
 

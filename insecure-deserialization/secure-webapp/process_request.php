@@ -20,6 +20,9 @@
         $user = $stmt->fetch(PDO::FETCH_ASSOC);
 
         if ($user) {
+            // Secret key (must match the one used for hashing)
+            $secret_key = "supersecretkey";
+
             // Check if the password is correct
             if (password_verify($password, $user['password'])) {
                 $roles = $user['roles'];
@@ -29,7 +32,11 @@
 
                 // Serialize the object and store it in a cookie (Insecure practice)
                 $serialized_data = serialize($user_data);
-                setcookie('user_info', $serialized_data, time() + (86400 * 7)); // 1 week cookie expiration
+
+                // Generate the hash using HMAC and the secret key
+                $hash = hash_hmac('sha256', $serialized_data, $secret_key);
+
+                setcookie('user_info', $serialized_data . '|' . $hash, time() + (86400 * 7)); // 1 week cookie expiration
 
                 // Redirect to another page
                 header("Location: home.php");

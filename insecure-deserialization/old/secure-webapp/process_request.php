@@ -2,7 +2,6 @@
     session_start();
 
     include('config.php');
-    include('user.php');
 
     $config = new Config();
     $config->set_conn();
@@ -22,14 +21,18 @@
         if ($user) {
             // Check if the password is correct
             if (password_verify($password, $user['password'])) {
-                $roles = $user['roles'];
-                
                 // Create an object to store user information
-                $user_data = new User($username, $roles);
+                $user_data = array(
+                    "username" => $username,
+                    "isAdmin" => $user["roles"] === "admin"
+                );
+
+                // session variables
+                $_SESSION["username"] = $username;
+                $_SESSION["isAdmin"] = $user["roles"] === "admin";
 
                 // Serialize the object and store it in a cookie (Insecure practice)
-                $serialized_data = serialize($user_data);
-                setcookie('user_info', $serialized_data, time() + (86400 * 7)); // 1 week cookie expiration
+                $encoded_data = serialize($user_data);
 
                 // Redirect to another page
                 header("Location: home.php");

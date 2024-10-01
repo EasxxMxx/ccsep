@@ -22,7 +22,7 @@
             <img src="img/Forum--Streamline-Sharp----Material-Symbols.svg" alt="">
             <label for="">Forum</label>
         </a>
-        <?php if ($roles == "admin"): ?>
+        <?php if ($isAdmin): ?>
             <a href="users.php" class="<?= ($current_page == 'users.php') ? 'active' : '' ?>">            
                 <img src="img/users.svg" alt="">
                 <label for="">Users</label>
