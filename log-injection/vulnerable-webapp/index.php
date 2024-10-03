@@ -19,14 +19,12 @@
     <title>login</title>
 </head>
 <body>
-    <!-- To submit the form as post request to process_request.php whenever the LOGIN button is pressed -->
     <form class="login-page" action="process_request.php" method="post">
         <h1>Login</h1>
         <section class="credentials">
             <label for="username">Username</label>
             <div class="username">
                 <img src="img/user.svg" alt="">
-                <!-- Input field expecting username -->
                 <input type="text" placeholder="Type your username" name="username">
             </div>        
         </section>
@@ -34,7 +32,6 @@
             <label for="password">Password</label>
             <div class="password">
                 <img src="img/lock.svg" alt="">
-                <!-- Input field expecting password -->
                 <input type="password" placeholder="Type your password" name="password">
                 <img src="img/eye.svg" class="eye" alt="">
             </div>
@@ -51,7 +48,6 @@
                 }
             ?>
         </p>
-        <!-- LOGIN button that will submit the post request -->
         <input type="submit" value="LOGIN" class="login-button">
         <p>Or Sign Up Using</p>
         <section class="other-logins">

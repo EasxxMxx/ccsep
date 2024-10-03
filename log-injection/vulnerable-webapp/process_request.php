@@ -11,7 +11,7 @@
         $username = $_POST['username'];
         $password = $_POST['password'];
 
-        // Prepare SQL query to fetch user information by username
+        // Prepare SQL query to fetch the user by username
         $stmt = $config->get_conn()->prepare("SELECT password, roles FROM users WHERE username = :username");
         $stmt->bindParam(':username', $username);
         $stmt->execute();
@@ -19,9 +19,7 @@
         // Fetch the result
         $user = $stmt->fetch(PDO::FETCH_ASSOC);
 
-        // If a matching username is found ~ user will be NULL otherwise
-        if ($user) 
-        {
+        if ($user) {
             // Check if the password is correct
             if (password_verify($password, $user['password'])) {
                 $roles = $user['roles'];
@@ -29,12 +27,13 @@
                 // Create an object to store user information
                 $user_data = new User($username, $roles);
 
-                // Serialize the object and store it in a cookie
+                // Serialize the object and store it in a cookie (Insecure practice)
                 $serialized_data = serialize($user_data);
-                setcookie('user_info', $serialized_data, time() + (86400 * 7)); // 1 week cookie expiration
+                setcookie('user_info', base64_encode($serialized_data), time() + (86400 * 7)); // 1 week cookie expiration
 
                 // Redirect to another page
                 header("Location: home.php");
+                // Proceed with login (e.g., session creation)
             } 
             else 
             {

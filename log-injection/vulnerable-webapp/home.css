@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+div {
+    padding-left: 14vw;
+
+}
+
+.welcome h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.welcome p {
+    margin-bottom: 0;
+}
+
+.info section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 2rem;
+
+    width: 22vw;
+
+    padding: 10px 0 15px 0;
+
+    background-color: #862586;
+    border-radius: 15px;
+}
+
+.info section img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.info section div {
+    padding: 0;
+}
+
+.info section .number {
+    margin: 0;
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.info section .text {
+    margin: 0;
+    color: white;
+}
+
+.info .likes {
+    background-color: #c679c6;
+}
+
+.info {
+    display: flex;
+    gap: 2rem;
+
+    margin-top: 1rem;
+}
+
+.info .replies {
+    background-color: #509bb7;
+}
