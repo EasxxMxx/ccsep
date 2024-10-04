@@ -1,0 +1,4 @@
+[2024-10-04 08:56:06] User &#039;johndoe&#039; logged in successfully.
+[2024-10-04 08:56:06] User &#039;johndoe&#039; has access main page.
+[2024-10-04 08:56:08] User &#039;johndoe&#039; has access main page.
+[2024-10-04 08:56:30] User &#039;johndoe&#039; OR &#039;1&#039;=&#039;1&#039;; logMessage(&#039;Malicious log entry 1&#039;); logMessage(&#039;Malicious log entry 2&#039;); //&#039; not found.

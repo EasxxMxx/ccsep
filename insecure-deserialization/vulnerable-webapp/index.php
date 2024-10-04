@@ -3,8 +3,8 @@
 
     $config = new Config();
     $config->set_conn();
-    $config->create_tables();
-    // $config->insert_data();
+    //$config->create_tables();
+    //$config->insert_data();
 
 ?>
 

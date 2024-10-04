@@ -1,0 +1,23 @@
+[2024-10-04 08:52:58] User 'hughie' logged in successfully.
+[2024-10-04 08:52:58] User 'hughie' has access main page.
+[2024-10-04 08:52:59] User 'hughie' has access users page.
+[2024-10-04 08:53:00] User 'hughie' has access setting page.
+[2024-10-04 08:53:01] User 'hughie' has access main page.
+[2024-10-04 08:53:18] User 'john' not found.
+[2024-10-04 08:53:26] User 'johndoe logged in succesfully\n'" . date('Y-m-d H:i:s') . " logMessage('Malicious log entry 1" . PHP_EOL . "'); logMessage('Malicious log entry 2" . PHP_EOL . "'); //' not found.
+[2024-10-04 08:53:43] User 'johndoe'; logMessage('Malicious log entry 1\n'); logMessage('Malicious log entry 2\n'); //'' not found.
+[2024-10-04 08:53:51] User '' not found.
+[2024-10-04 08:53:52] User '' not found.
+[2024-10-04 08:53:52] User '' not found.
+[2024-10-04 08:53:52] User '' not found.
+[2024-10-04 08:53:52] User '' not found.
+[2024-10-04 08:54:41] User '' OR '1'='1'; logMessage('Malicious log entry 1'); logMessage('Malicious log entry 2'); //' not found.
+[2024-10-04 08:59:42] User 'johndoe\nlogMessage('Malicious log entry');' not found.
+[2024-10-04 09:01:04] User 'test'; logMessage('Attack')' not found.
+[2024-10-04 09:03:21] User 'johndoe\r\nlogMessage('Malicious log entry');' not found.
+[2024-10-04 09:05:37] User 'john\nLogged in as admin' not found.
+[2024-10-04 09:06:23] User '"john\nLogged in as admin"' not found.
+[2024-10-04 09:06:38] User 'john'"\nLogged in as admin"'' not found.
+[2024-10-04 09:08:03] User 'john\rLogged in as admin' not found.
+[2024-10-04 09:08:50] User 'Select id from users where username=’username’ and password=’password’ or 1=1--+' not found.
+[2024-10-04 09:09:57] User '' not found.

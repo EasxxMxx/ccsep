@@ -1,5 +1,6 @@
 <?php
     include('user.php');
+    include('logger.php');
 
     $secret_key = "supersecretkey";
 
@@ -30,6 +31,9 @@
             // The cookie is valid and hasn't been tampered with
             $username = $user_data->get_username();
             $roles = $user_data->get_roles();
+
+            // Log if access main page
+            logMessage("User '$username' has access main page.");
         } 
 
         else 
