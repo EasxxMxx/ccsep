@@ -9,3 +9,21 @@
 [2024-10-05 10:25:16] User &#039;admin
 [ERROR] Unauthorized access&#039; not found.
 [2024-10-05 10:25:43] User &#039;admin\n[ERROR] Unauthorized access&#039; not found.
+[2024-10-05 14:08:05] User &#039;hughie&#039; logged in successfully.
+[2024-10-05 14:08:05] User &#039;hughie&#039; has access main page.
+[2024-10-05 14:08:06] hughie has access logger page.
+[2024-10-05 14:08:12] User &#039;hughie&#039; has access setting page.
+[2024-10-05 14:08:12] User &#039;hughie&#039; has access users page.
+[2024-10-05 14:08:13] hughie has access logger page.
+[2024-10-05 14:09:48] hughie has access logger page.
+[2024-10-05 14:17:49] User &#039;admin
+[ERROR] Unauthorized access&#039; not found.
+[2024-10-05 14:17:53] User &#039;hughie&#039; logged in successfully.
+[2024-10-05 14:17:53] User &#039;hughie&#039; has access main page.
+[2024-10-05 14:17:53] hughie has access logger page.
+[2024-10-05 14:18:54] User &#039;admin
+[ERROR] Unauthorized access&#039; not found.
+[2024-10-05 14:21:08] User &#039;admin[ERROR] Unauthorized access&#039; not found.
+[2024-10-05 14:21:27] User &#039;hughie&#039; logged in successfully.
+[2024-10-05 14:21:27] User &#039;hughie&#039; has access main page.
+[2024-10-05 14:21:28] hughie has access logger page.

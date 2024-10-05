@@ -17,6 +17,7 @@
                 echo $current_page == "users.php" ? "Users" : "";
                 echo $current_page == "settings.php" ? "Settings" : "";
                 echo $current_page == "forum.php" ? "Forum" : "";
+                echo $current_page == "displayLog.php" ? "Logger" : "";
             ?>  
         </h1>
     </section>

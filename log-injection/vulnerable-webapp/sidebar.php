@@ -31,6 +31,10 @@
                 <img src="img/settings.svg" alt="">
                 <label for="">Settings</label>
             </a>
+            <a href="displayLog.php" class="<?= ($current_page == 'displayLog.php') ? 'active' : '' ?>">            
+                <img src="img/logger.svg" alt="">
+                <label for="">Logger</label>
+            </a>
         <?php endif; ?>
     </section>
 </body>

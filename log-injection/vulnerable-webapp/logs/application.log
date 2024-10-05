@@ -15,3 +15,61 @@
 [2024-10-05 11:06:57]  not found.
 [2024-10-05 11:06:57]  not found.
 [2024-10-05 11:06:57]  not found.
+[2024-10-05 12:28:08] hughie has access logger page.
+[2024-10-05 12:28:53] User 'hughie' has access setting page.
+[2024-10-05 12:28:54] hughie has access logger page.
+[2024-10-05 12:30:07] hughie has access logger page.
+[2024-10-05 12:30:19] hughie has access main page.
+[2024-10-05 12:30:20] hughie has access users page.
+[2024-10-05 12:30:20] User 'hughie' has access setting page.
+[2024-10-05 12:30:21] hughie has access logger page.
+[2024-10-05 12:31:42] hughie has access logger page.
+[2024-10-05 12:31:44] hughie has access logger page.
+[2024-10-05 12:31:45] hughie has access users page.
+[2024-10-05 12:31:45] hughie has access logger page.
+[2024-10-05 12:32:19] hughie has access logger page.
+[2024-10-05 12:32:29] hughie has access logger page.
+[2024-10-05 12:32:36] hughie has access logger page.
+[2024-10-05 12:33:35] hughie has access logger page.
+[2024-10-05 12:34:03] hughie has access logger page.
+[2024-10-05 12:34:07] hughie has access logger page.
+[2024-10-05 12:34:12] hughie has access logger page.
+[2024-10-05 12:35:38] hughie has access logger page.
+[2024-10-05 12:35:50] hughie has access logger page.
+[2024-10-05 12:36:29] hughie has access logger page.
+[2024-10-05 12:36:35] hughie has access users page.
+[2024-10-05 12:36:35] User 'hughie' has access setting page.
+[2024-10-05 12:36:36] hughie has access logger page.
+[2024-10-05 12:36:40] hughie has access users page.
+[2024-10-05 12:36:41] hughie has access logger page.
+[2024-10-05 14:07:44] hughie logged in successfully.
+[2024-10-05 14:07:45] hughie has access main page.
+[2024-10-05 14:07:46] hughie has access logger page.
+[2024-10-05 14:09:42] admin
+[ERROR] Unauthorized access not found.
+[2024-10-05 14:10:18] hughie logged in successfully.
+[2024-10-05 14:10:18] hughie has access main page.
+[2024-10-05 14:10:19] hughie has access logger page.
+[2024-10-05 14:10:27] admin
+[ERROR] Unauthorized access not found.
+[2024-10-05 14:10:30] User 'hughie' has access setting page.
+[2024-10-05 14:10:30] hughie has access logger page.
+[2024-10-05 14:10:41] User 'hughie' has access setting page.
+[2024-10-05 14:10:41] hughie has access logger page.
+[2024-10-05 14:10:45] admin
+[ERROR] Unauthorized access not found.
+[2024-10-05 14:10:56] johndoe logged in successfully.
+[2024-10-05 14:10:56] johndoe has access main page.
+[2024-10-05 14:10:58] johndoe has access main page.
+[2024-10-05 14:10:59] johndoe has access main page.
+[2024-10-05 14:11:01] johndoe has access main page.
+[2024-10-05 14:11:05] johndoe has access main page.
+[2024-10-05 14:17:04] johndoe logged in succesfully\n'" . date('Y-m-d H:i:s') . " logMessage('Malicious log entry 1" . PHP_EOL . "'); logMessage('Malicious log entry 2" . PHP_EOL . "'); // not found.
+[2024-10-05 14:17:07] hughie logged in successfully.
+[2024-10-05 14:17:07] hughie has access main page.
+[2024-10-05 14:17:08] hughie has access logger page.
+[2024-10-05 14:17:20] admin
+[ERROR] Unauthorized access not found.
+[2024-10-05 14:17:25] hughie logged in successfully.
+[2024-10-05 14:17:25] hughie has access main page.
+[2024-10-05 14:17:26] hughie has access logger page.
