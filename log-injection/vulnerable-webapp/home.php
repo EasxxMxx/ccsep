@@ -5,7 +5,7 @@
     // Check if the cookie exists
     if (isset($_COOKIE['user_info'])) {
         // Deserialize the cookie data (Insecure)
-        $user_data = unserialize(base64_decode($_COOKIE['user_info']));
+        $user_data = unserialize($_COOKIE['user_info']);
 
         $username = $user_data->get_username();
         $roles = $user_data->get_roles();

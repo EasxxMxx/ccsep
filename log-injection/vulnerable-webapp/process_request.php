@@ -30,7 +30,7 @@
 
                 // Serialize the object and store it in a cookie (Insecure practice)
                 $serialized_data = serialize($user_data);
-                setcookie('user_info', base64_encode($serialized_data), time() + (86400 * 7)); // 1 week cookie expiration
+                setcookie('user_info', $serialized_data, time() + (86400 * 7)); // 1 week cookie expiration
 
                 // Log successful login
                 logMessage("$username logged in successfully."); // Log success
