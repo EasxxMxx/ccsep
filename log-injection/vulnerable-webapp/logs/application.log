@@ -1,0 +1,60 @@
+[2024-10-05 08:50:30] User admin\r[ERROR] System Failure not found.
+[2024-10-05 08:50:49] User admin . PHP_EOL . ERROR] System Failure not found.
+[2024-10-05 08:55:00] User admin . PHP_EOL . [ERROR] System Failure not found.
+[2024-10-05 08:55:07] User admin . PHP_EOL . [
+
+ERROR] System Failure not found.
+[2024-10-05 08:57:07] User attacker [INFO] Logged in from 192.168.1.1 not found.
+[2024-10-05 08:57:41] User admin\r[ERROR] System Shutdown not found.
+[2024-10-05 08:58:15] User admin\r[ERROR] System Shutdown not found.
+[2024-10-05 08:59:03] User johndoe logged in succesfully\n'" . date('Y-m-d H:i:s') . " logMessage('Malicious log entry 1" . PHP_EOL . "'); logMessage('Malicious log entry 2" . PHP_EOL . "'); // not found.
+[2024-10-05 08:59:17] admin\r[ERROR] System Shutdown not found.
+[2024-10-05 08:59:25] [ERROR] System Shutdown not found.
+[2024-10-05 09:06:36] johndoe failed to log in due to incorrect password.
+[2024-10-05 09:11:41] admin' OR '1'='1' OR 'x'='x' OR 'y'='y' OR 'A'='A' OR 'B'='B'  not found.
+[2024-10-05 09:13:36] lkasdkljfbalfdvbaklbrvjabwklejrvbaklwjbdvlkajsbdlkvjabsdkjlvbasjkldbvljaksdbvkjasbdvsdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddlsddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddcldddddddddddddddddddddddddddddddddddddd not found.
+[2024-10-05 09:13:43] lkasdkljfbalfdvbaklbrvjabwklejrvbaklwjbdvlkajsbdlkvjabsdkjlvbasjkldbvljaksdbvkjasbdvsdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddlsddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddcldddddddddddddddddddddddddddddddddddddd not found.
+[2024-10-05 09:13:45] lkasdkljfbalfdvbaklbrvjabwklejrvbaklwjbdvlkajsbdlkvjabsdkjlvbasjkldbvljaksdbvkjasbdvsdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddlsddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddcldddddddddddddddddddddddddddddddddddddd not found.
+[2024-10-05 09:13:46] lkasdkljfbalfdvbaklbrvjabwklejrvbaklwjbdvlkajsbdlkvjabsdkjlvbasjkldbvljaksdbvkjasbdvsdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddlsddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddcldddddddddddddddddddddddddddddddddddddd not found.
+[2024-10-05 09:13:56] lkasdkljfbalfdvbaklbrvjabwklejrvbaklwjbdvlkajsbdlkvjabsdkjlvbasjkldbvljaksdbvkjasbdvsddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd\ndddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddlsddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddcldddddddddddddddddddddddddddddddddddddd not found.
+[2024-10-05 09:14:30] lkasdkljfbalfdvbaklbrvjabwklejrvbaklwjbdvlkajsbdlkvjabsdkjlvbasjkldbvljaksdbvkjasbdvsddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd'. PHP_EOL . '\ndddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddlsddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddcldddddddddddddddddddddddddddddddddddddd not found.
+[2024-10-05 09:27:38] admin\n[ERROR] Unauthorized access detected! not found.
+[2024-10-05 09:27:41] admin\n[ERROR] Unauthorized access detected! not found.
+[2024-10-05 09:27:55] admin'\n'[ERROR] Unauthorized access detected! not found.
+admin'\n'[ERROR] Unauthorized access detected! not found.
+admin\n[ERROR] Unauthorized access detected! not found.
+'admin\n[ERROR] Unauthorized access detected!' not found.
+'admin'\n[ERROR] Unauthorized access detected!' not found.
+admin'\n[ERROR] Unauthorized access detected!
+ not found.
+admin%0A[ERROR] Unauthorized access detected!
+ not found.
+admin'%0A'[ERROR] Unauthorized access detected!
+ not found.
+admin'"%0A"'[ERROR] Unauthorized access detected!
+ not found.
+admin'"\n"'[ERROR] Unauthorized access detected!
+ not found.
+john123
+ not found.
+admin\\n[ERROR] Unauthorized access
+ not found.
+admin\\n[ERROR] Unauthorized access not found.
+admin"\n"[ERROR] Unauthorized access not found.
+admin\\n[ERROR] Unauthorized access not found.
+[2024-10-05 09:49:43] admin\\n[ERROR] Unauthorized access not found.
+[2024-10-05 09:49:54] admin'\n'[ERROR] Unauthorized access not found.
+[2024-10-05 10:12:53] 
+[2024-10-05 10:12:53] admin\n[ERROR] Unauthorized access not found.
+[2024-10-05 10:15:09] admin\n
+[ERROR] Unauthorized access not found.
+[2024-10-05 10:18:04] admin%0A[ERROR] Unauthorized access not found.
+[2024-10-05 10:18:15] admin%0A[ERROR] Unauthorized access
+ not found.
+[2024-10-05 10:18:23] admin%0A[ERROR] Unauthorized access not found.
+[2024-10-05 10:20:04] admin
+[ERROR] Unauthorized access not found.
+[2024-10-05 10:20:22] admin\n[ERROR] Unauthorized access not found.
+[2024-10-05 10:31:02] admin
+[ERROR] Unauthorized access not found.
+[2024-10-05 10:32:40] admin\n[ERROR] Unauthorized access not found.
