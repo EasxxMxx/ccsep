@@ -35,7 +35,7 @@
                 setcookie('user_info', $serialized_data, time() + (86400 * 7)); // 1 week cookie expiration
 
                 // Log successful login
-                logMessage("User '$username' logged in successfully."); // Log success
+                logMessage("$username logged in successfully."); // Log success
 
                 // Redirect to another page
                 header("Location: home.php");
@@ -43,7 +43,7 @@
             else 
             {
                 // Log failed password attempt
-                logMessage("User '$username' failed to log in due to incorrect password."); // Log failure
+                logMessage("$username failed to log in due to incorrect password."); // Log failure
                 header("Location: index.php?error=1");
             }
         } 
@@ -51,7 +51,7 @@
         else 
         {
             // Log failed login due to username not found
-            logMessage("User '$username' not found."); // Log user not found
+            logMessage("$username not found."); // Log user not found
             header("Location: index.php?error=2");
         }
     }
