@@ -18,7 +18,7 @@ class Config
     {
         try 
         {
-            $this->conn = new PDO("mysql:host=localhost;dbname=ccsep;port=3307", "root", "");
+            $this->conn = new PDO("mysql:host=localhost;dbname=ccsep;port=3306", "root", "");
             // set the PDO error mode to exception
             $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         } catch (PDOException $e) 

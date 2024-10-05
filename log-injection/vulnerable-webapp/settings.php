@@ -1,5 +1,6 @@
 <?php
     include('user.php');
+    include('logger.php');
 
     // Check if the cookie exists
     if (isset($_COOKIE['user_info'])) {
@@ -8,6 +9,9 @@
 
         $username = $user_data->get_username();
         $roles = $user_data->get_roles();
+
+        // Log if access setting page
+        logMessage("User '$username' has access setting page.");
     }
 ?>
 

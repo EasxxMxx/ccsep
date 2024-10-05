@@ -3,6 +3,7 @@
 
     include('config.php');
     include('user.php');
+    include('logger.php');
 
     $config = new Config();
     $config->set_conn();
@@ -31,18 +32,25 @@
                 $serialized_data = serialize($user_data);
                 setcookie('user_info', base64_encode($serialized_data), time() + (86400 * 7)); // 1 week cookie expiration
 
+                // Log successful login
+                logMessage("$username logged in successfully."); // Log success
+
                 // Redirect to another page
                 header("Location: home.php");
                 // Proceed with login (e.g., session creation)
             } 
             else 
             {
+                // Log failed password attempt
+                logMessage("$username failed to log in due to incorrect password."); // Log failure
                 header("Location: index.php?error=1");
             }
         } 
 
         else 
         {
+            // Log failed login due to username not found
+            logMessage("$username not found."); // Log user not found
             header("Location: index.php?error=2");
         }
     }

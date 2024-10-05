@@ -3,7 +3,7 @@ function logMessage($message, $logFile = 'logs/application.log') {
     $message = urldecode($message);
 
     // Remove any newlines or carriage returns
-    //$sanitizedMessage = str_replace(array("\r", "\n"), '', $message);
+    $sanitizedMessage = str_replace(array("\r", "\n"), '', $message);
     
     // Optionally, you can also encode any special HTML characters to prevent other types of injection
     $sanitizedMessage = htmlspecialchars($message, ENT_QUOTES, 'UTF-8');

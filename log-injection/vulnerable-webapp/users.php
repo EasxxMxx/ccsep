@@ -1,6 +1,7 @@
 <?php
     include('user.php');
     include('config.php');
+    include('logger.php');
 
     $config = new Config();
     $config->set_conn();
@@ -12,6 +13,9 @@
 
         $username = $user_data->get_username();
         $roles = $user_data->get_roles();
+
+        // Log if access users page
+        logMessage("$username has access users page.");
     }
 ?>
 
